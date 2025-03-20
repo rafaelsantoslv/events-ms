@@ -15,7 +15,6 @@ public class EventEntity {
     @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
     private int maxParticipants;
-    private int registeredParticipants;
     private String data;
     private String title;
     private String description;
